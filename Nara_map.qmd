@@ -1,0 +1,9 @@
+```{r, echo=FALSE, fig.height=10}
+#| column: screen
+
+pacman::p_load(tidyverse, leaflet, readxl)
+d <- read_excel("./data/Nara_map.xlsx")
+d |> leaflet() |> 
+  addTiles() |> 
+  addCircleMarkers(~lon, ~lat, popup = d$description, label = d$name)
+```
