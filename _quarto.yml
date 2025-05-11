@@ -1,6 +1,2 @@
 project:
   title: "Nara_map"
-
-format:
-  html:
-    embed-resources: true
