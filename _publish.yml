@@ -1,0 +1,8 @@
+- source: index.qmd
+  quarto-pub:
+    - id: 324873f4-6d57-4f0c-84c2-9c33ca195b2d
+      url: https://xjorv.quarto.pub/index
+- source: nara_personal_map.qmd
+  quarto-pub:
+    - id: a20126ab-8e4f-41c3-8a0d-bcb8a0431949
+      url: https://xjorv.quarto.pub/nara_personal_map
